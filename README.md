@@ -13,13 +13,13 @@ Dette prosjektet er en enkel nettside for å laste opp, vise og håndtere filer.
 ![alt text](https://github.com/Evenkristoffer/Prosjekt_idk/blob/main/media/Untitled.png?raw=true)
 
 ## Mappestruktur
-/src
-  /css
-  /fonts
-  /html
-  /images
-  /js
-app.js
+src
+├── css
+├── fonts
+├── html
+├── images
+├── js
+└── app.js
 
 
 ## Kompetanse som vises i prosjektet
