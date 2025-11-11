@@ -10,4 +10,4 @@ Last ned fil + del med link
 Slett fil / slett alt
 Enkel validering av filtyper/størrelse
 
-![alt text]([http://url/to/img.png](https://github.com/Evenkristoffer/Prosjekt_idk/blob/main/media/Untitled.png))
+![alt text](https://github.com/Evenkristoffer/Prosjekt_idk/blob/main/media/Untitled.png?raw=true)
