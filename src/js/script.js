@@ -1,7 +1,8 @@
+const fileInput = document.getElementById("fileInput");
+const uploadBtn = document.getElementById("uploadBtn");
+const statusBox = document.getElementById("status");
 
-  const fileInput = document.getElementById("fileInput");
-  const uploadBtn = document.getElementById("uploadBtn");
-  const statusBox = document.getElementById("status");
+console.log("Upload script loaded.");
 
   uploadBtn.addEventListener("click", async () => {
     const file = fileInput.files[0];
