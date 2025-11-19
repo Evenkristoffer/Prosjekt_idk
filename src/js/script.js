@@ -8,7 +8,7 @@ console.log("Upload script loaded.");
     const file = fileInput.files[0];
 
     if (!file) {
-      statusBox.textContent = "Please choose a file first.";
+      statusBox.textContent = "Vennligst velg en fil først.";
       return;
     }
 
@@ -16,7 +16,7 @@ console.log("Upload script loaded.");
     formData.append("file", file); // "file" is the field name your backend expects
 
     try {
-      statusBox.textContent = "Uploading...";
+      statusBox.textContent = "Opplaster...";
 
       const res = await fetch("/upload", {
         method: "POST",
@@ -24,14 +24,14 @@ console.log("Upload script loaded.");
       });
 
       if (!res.ok) {
-        throw new Error("Upload failed");
+        throw new Error("Opplastingen mislyktes");
       }
 
       const data = await res.json().catch(() => ({})); // in case server returns JSON
-      statusBox.textContent = "Upload successful!";
+      statusBox.textContent = "Opplastingen var vellykket!";
       console.log("Server response:", data);
     } catch (err) {
       console.error(err);
-      statusBox.textContent = "Error uploading file.";
+      statusBox.textContent = "Feil ved opplasting av fil.";
     }
   });
