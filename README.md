@@ -7,7 +7,8 @@ Dette prosjektet er en enkel nettside for å laste opp, vise og håndtere filer.
 - Vise liste over filer  
 - Last ned fil + del med link  
 - Slett fil / slett alt  
-- Enkel validering av filtyper og filstørrelse  
+- Enkel validering av filtyper og filstørrelse
+- Med data logging for å se hvem som lastet opp en spesifik fil, brukes også når brukeren skal se hvilke filer de tidligere har lastet opp. Og for fildeling da man må vite hvem som originalt "eier" filen.
 
 ![alt text](https://github.com/Evenkristoffer/Prosjekt_idk/blob/main/media/Untitled.png?raw=true)
 
