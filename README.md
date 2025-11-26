@@ -1,6 +1,7 @@
 # Clouddrop - filopplasting
 Enkel webapp for opplasting, nedlasting og sletting av filer per bruker. Frontend er statiske HTML/CSS/JS-filer, backend er Node.js/Express med MongoDB som lagrer brukere og metadata for filer.
 
+### Mine skisser:
 ![UI](https://github.com/Evenkristoffer/Prosjekt_idk/blob/main/media/Untitled.png?raw=true)
 
 ## Innhold og funksjoner
