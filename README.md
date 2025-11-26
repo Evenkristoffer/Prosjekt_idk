@@ -41,7 +41,7 @@ API-et vil feile hvis det ikke får kontakt med MongoDB; sjekk at databasen kjø
 
 ## Drift og feilsøking
 - Upload-katalog opprettes automatisk. Hver bruker får en mappe som er eposten sin.
-- Sjekk konsollen når du kjører `node app.js` for å se om serveren stopper eller error koder.
+- Sjekk konsollen når du kjører `node app.js` for å se om serveren stopper eller om du får error koder.
 
 ## Sikkerhet
 - Autentisering: Per nå kun `x-user-email`-header fra frontend (ingen token/sesjon).
